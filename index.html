@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>MapBox first map</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        #webHMap{width: 500px;height: 300px;}
+    </style>
+</head>
+<body>
+    <div id="webHMap"></div>
+</body>
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1Ijoid2ViaCIsImEiOiJja2lweXNubzYwNGJ3Mnl0Z3R5cTRud2ZhIn0.t0ihePoYF-vrbBKVN0a8qQ'
+    var map = new mapboxgl.Map({
+        container: 'webHMap',
+        style: 'mapbox://styles/mapbox/streets-v9'
+    })
+</script>
+</html>
