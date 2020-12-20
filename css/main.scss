@@ -1,0 +1,48 @@
+*{margin:0;padding:0;}
+ul,ol{list-style:none;}
+
+@for $i from 0 through 100{
+    .mg-#{$i} {margin:1px * $i;}
+    .pd-#{$i} {padding:1px * $i;}
+
+    .t-#{$i} {top:1px * $i;}
+    .r-#{$i} {right:1px * $i;}
+    .b-#{$i} {bottom:1px * $i;}
+    .l-#{$i} {left:1px * $i;}
+
+    .mt#{$i} {margin-top:1px * $i;}
+    .mr#{$i} {margin-right:1px * $i;}
+    .mb#{$i} {margin-bottom:1px * $i;}
+    .ml#{$i} {margin-left:1px * $i;}
+    .pt#{$i} {padding-top:1px * $i;}
+    .pr#{$i} {padding-right:1px * $i;}
+    .pb#{$i} {padding-bottom:1px * $i;}
+    .pl#{$i} {padding-left:1px * $i;}
+
+    .t-#{$i}e{top:1em * $i;}
+    .r-#{$i}e{right:1em * $i;}
+    .b-#{$i}e{bottom:1em * $i;}
+    .l-#{$i}e{left:1em * $i;}
+    .mt#{$i}e {margin-top:1em * $i;}
+    .mr#{$i}e {margin-right:1em * $i;}
+    .mb#{$i}e {margin-bottom:1em * $i;}
+    .ml#{$i}e {margin-left:1em * $i;}
+    .pt#{$i}e {padding-top:1em * $i;}
+    .pr#{$i}e {padding-right:1em * $i;}
+    .pb#{$i}e {padding-bottom:1em * $i;}
+    .pl#{$i}e {padding-left:1em * $i;}
+
+    .t-#{$i}pct{top:1% * $i;}
+    .r-#{$i}pct{right:1% * $i;}
+    .b-#{$i}pct{bottom:1% * $i;}
+    .l-#{$i}pct{left:1% * $i;}
+    .mt#{$i}pct {margin-top:1% * $i;}
+    .mr#{$i}pct {margin-right:1% * $i;}
+    .mb#{$i}pct {margin-bottom:1% * $i;}
+    .ml#{$i}pct {margin-left:1% * $i;}
+    .pt#{$i}pct {padding-top:1% * $i;}
+    .pr#{$i}pct {padding-right:1% * $i;}
+    .pb#{$i}pct {padding-bottom:1% * $i;}
+    .pl#{$i}pct {padding-left:1% * $i;}
+}
+.center{margin:{left:auto;right:auto;}}
